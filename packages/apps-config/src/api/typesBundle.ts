@@ -62590,7 +62590,8 @@ export const typesBundle = {
               "_enum": [
                 "Ed25519",
                 "Sr25519",
-                "Ecdsa"
+                "Ecdsa",
+                "Dilithium2"
               ]
             },
             "StructDecl": {

@@ -43,7 +43,7 @@ export interface AccountBalance {
   unbonding: BN;
 }
 
-export type PairType = 'ecdsa' | 'ed25519' | 'ed25519-ledger' | 'ethereum' | 'sr25519';
+export type PairType = 'ecdsa' | 'ed25519' | 'ed25519-ledger' | 'ethereum' | 'sr25519' | 'dilithium2';
 
 export interface CreateProps extends ModalProps {
   className?: string;

@@ -72,6 +72,8 @@ function InjectKeys ({ onClose }: Props): React.ReactElement<Props> | null {
     () => CRYPTO_MAP[keyType].map((value): { text: string; value: KeypairType } => ({
       text: value === 'ed25519'
         ? t<string>('ed25519, Edwards')
+        : value === 'dilithium2'
+        ? t<string>('dilithium2, QuantumBlockchains')
         : t<string>('sr15519, Schnorrkel'),
       value
     })),
