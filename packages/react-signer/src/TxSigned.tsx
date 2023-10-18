@@ -86,6 +86,8 @@ async function signAndSend (queueSetTxStatus: QueueTxMessageSetStatus, currentIt
 
     queueSetTxStatus(currentItem.id, 'sending');
 
+    console.log(`TX: ${tx}`);
+
     const unsubscribe = await tx.send(handleTxResults('signAndSend', queueSetTxStatus, currentItem, (): void => {
       unsubscribe();
     }));

@@ -192,7 +192,7 @@ const definitions: OverrideBundleDefinition = {
           structs: 'Vec<StructDecl>'
         },
         HasherAlgo: { _enum: ['Blake2', 'Keccak256'] },
-        CryptoAlgo: { _enum: ['Ed25519', 'Sr25519', 'Ecdsa'] },
+        CryptoAlgo: { _enum: ['Ed25519', 'Sr25519', 'Ecdsa', 'Dilithium2'] },
         StructDecl: { name: 'Type', fields: 'Vec<Parameter>', offsets: 'Vec<u16>' },
         Parachain: { relay_chain_id: 'ChainId', id: 'u32' }
       }

@@ -1,7 +1,7 @@
 // Copyright 2017-2023 @polkadot/app-accounts authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { cryptoWaitReady, ed25519PairFromSeed, mnemonicGenerate, mnemonicToMiniSecret, sr25519PairFromSeed } from '@polkadot/util-crypto';
+import { cryptoWaitReady, ed25519PairFromSeed, mnemonicGenerate, mnemonicToMiniSecret, sr25519PairFromSeed, dilithium2PairFromSeed } from '@polkadot/util-crypto';
 
 const ctx: Worker = self as unknown as Worker;
 
@@ -16,6 +16,8 @@ ctx.onmessage = async ({ data: { pairType } }): Promise<void> => {
   const miniSecret = mnemonicToMiniSecret(seed);
   const { publicKey } = pairType === 'sr25519'
     ? sr25519PairFromSeed(miniSecret)
+    : pairType === 'dilithium2'
+    ? dilithium2PairFromSeed(miniSecret)
     : ed25519PairFromSeed(miniSecret);
 
   ctx.postMessage({
