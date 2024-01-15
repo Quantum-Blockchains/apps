@@ -92,7 +92,7 @@ async function signAndSend (queueSetTxStatus: QueueTxMessageSetStatus, currentIt
       unsubscribe();
     }));
   } catch (error) {
-    console.error('signAndSend: error:', error);
+    
     queueSetTxStatus(currentItem.id, 'error', {}, error as Error);
 
     currentItem.txFailedCb && currentItem.txFailedCb(error as Error);
