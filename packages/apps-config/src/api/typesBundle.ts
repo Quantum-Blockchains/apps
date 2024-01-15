@@ -38735,7 +38735,8 @@ export const typesBundle = {
             "DidVerificationKey": {
               "_enum": {
                 "Ed25519": "[u8; 32]",
-                "Sr25519": "[u8; 32]"
+                "Sr25519": "[u8; 32]",
+                "Dilithium2": "[u8; 1312]"
               }
             },
             "DidEncryptionKey": {
@@ -38760,7 +38761,8 @@ export const typesBundle = {
             "DidSignature": {
               "_enum": {
                 "Ed25519": "Ed25519Signature",
-                "Sr25519": "Sr25519Signature"
+                "Sr25519": "Sr25519Signature",
+                "Dilithium2": "Dilithium2Signature",
               }
             },
             "DidError": {
@@ -38916,7 +38918,8 @@ export const typesBundle = {
             "DidVerificationKey": {
               "_enum": {
                 "Ed25519": "[u8; 32]",
-                "Sr25519": "[u8; 32]"
+                "Sr25519": "[u8; 32]",
+                "Dilithium2": "[u8; 1312]"
               }
             },
             "DidEncryptionKey": {
@@ -38941,7 +38944,8 @@ export const typesBundle = {
             "DidSignature": {
               "_enum": {
                 "Ed25519": "Ed25519Signature",
-                "Sr25519": "Sr25519Signature"
+                "Sr25519": "Sr25519Signature",
+                "Dilithium2": "Dilithium2Signature"
               }
             },
             "DidError": {
@@ -39155,7 +39159,8 @@ export const typesBundle = {
               "_enum": {
                 "Ed25519": "[u8; 32]",
                 "Sr25519": "[u8; 32]",
-                "Secp256k1": "[u8; 33]"
+                "Secp256k1": "[u8; 33]",
+                "Dilithium2": "[u8; 1312]"
               }
             },
             "DidEncryptionKey": {
@@ -39181,7 +39186,8 @@ export const typesBundle = {
               "_enum": {
                 "Ed25519": "Ed25519Signature",
                 "Sr25519": "Sr25519Signature",
-                "Ecdsa-Secp256k1": "EcdsaSignature"
+                "Ecdsa-Secp256k1": "EcdsaSignature",
+                "Dilithium2": "Dilithium2Signature"
               }
             },
             "DidError": {
@@ -39398,7 +39404,8 @@ export const typesBundle = {
               "_enum": {
                 "Ed25519": "[u8; 32]",
                 "Sr25519": "[u8; 32]",
-                "Secp256k1": "[u8; 33]"
+                "Secp256k1": "[u8; 33]",
+                "Dilithium2": "[u8; 1312]"
               }
             },
             "DidEncryptionKey": {
@@ -39424,7 +39431,8 @@ export const typesBundle = {
               "_enum": {
                 "Ed25519": "Ed25519Signature",
                 "Sr25519": "Sr25519Signature",
-                "Ecdsa-Secp256k1": "EcdsaSignature"
+                "Ecdsa-Secp256k1": "EcdsaSignature",
+                "Dilithium2": "Dilithium2Signature"
               }
             },
             "DidError": {
@@ -39633,7 +39641,8 @@ export const typesBundle = {
               "_enum": {
                 "Ed25519": "[u8; 32]",
                 "Sr25519": "[u8; 32]",
-                "Secp256k1": "[u8; 33]"
+                "Secp256k1": "[u8; 33]",
+                "Dilithium2": "[u8; 1312]"
               }
             },
             "DidEncryptionKey": {
@@ -39659,7 +39668,8 @@ export const typesBundle = {
               "_enum": {
                 "Ed25519": "Ed25519Signature",
                 "Sr25519": "Sr25519Signature",
-                "Ecdsa-Secp256k1": "EcdsaSignature"
+                "Ecdsa-Secp256k1": "EcdsaSignature",
+                "Dilithium2": "Dilithium2Signature"
               }
             },
             "DidError": {
@@ -39876,7 +39886,8 @@ export const typesBundle = {
               "_enum": {
                 "Ed25519": "[u8; 32]",
                 "Sr25519": "[u8; 32]",
-                "Secp256k1": "[u8; 33]"
+                "Secp256k1": "[u8; 33]",
+                "Dilithium2": "[u8; 1312]"
               }
             },
             "DidEncryptionKey": {
@@ -39902,7 +39913,8 @@ export const typesBundle = {
               "_enum": {
                 "Ed25519": "Ed25519Signature",
                 "Sr25519": "Sr25519Signature",
-                "Ecdsa-Secp256k1": "EcdsaSignature"
+                "Ecdsa-Secp256k1": "EcdsaSignature",
+                "Dilithium2": "Dilithium2Signature"
               }
             },
             "DidError": {
@@ -40145,7 +40157,8 @@ export const typesBundle = {
               "_enum": {
                 "Ed25519": "[u8; 32]",
                 "Sr25519": "[u8; 32]",
-                "Secp256k1": "[u8; 33]"
+                "Secp256k1": "[u8; 33]",
+                "Dilithium2": "[u8; 1312]"
               }
             },
             "DidEncryptionKey": {
@@ -40171,7 +40184,8 @@ export const typesBundle = {
               "_enum": {
                 "Ed25519": "Ed25519Signature",
                 "Sr25519": "Sr25519Signature",
-                "Ecdsa-Secp256k1": "EcdsaSignature"
+                "Ecdsa-Secp256k1": "EcdsaSignature",
+                "Dilithium2": "Dilithium2Signature"
               }
             },
             "DidError": {
@@ -40432,7 +40446,8 @@ export const typesBundle = {
               "_enum": {
                 "Ed25519": "[u8; 32]",
                 "Sr25519": "[u8; 32]",
-                "Secp256k1": "[u8; 33]"
+                "Secp256k1": "[u8; 33]",
+                "Dilithium2": "[u8; 1312]"
               }
             },
             "DidEncryptionKey": {
@@ -40458,7 +40473,8 @@ export const typesBundle = {
               "_enum": {
                 "Ed25519": "Ed25519Signature",
                 "Sr25519": "Sr25519Signature",
-                "Ecdsa-Secp256k1": "EcdsaSignature"
+                "Ecdsa-Secp256k1": "EcdsaSignature",
+                "Dilithium2": "Dilithium2Signature"
               }
             },
             "DidError": {
@@ -40705,7 +40721,8 @@ export const typesBundle = {
               "_enum": {
                 "Ed25519": "[u8; 32]",
                 "Sr25519": "[u8; 32]",
-                "Secp256k1": "[u8; 33]"
+                "Secp256k1": "[u8; 33]",
+                "Dilithium2": "[u8; 1312]"
               }
             },
             "DidEncryptionKey": {
@@ -40731,7 +40748,8 @@ export const typesBundle = {
               "_enum": {
                 "Ed25519": "Ed25519Signature",
                 "Sr25519": "Sr25519Signature",
-                "Ecdsa-Secp256k1": "EcdsaSignature"
+                "Ecdsa-Secp256k1": "EcdsaSignature",
+                "Dilithium2": "Dilithium2Signature"
               }
             },
             "DidError": {
@@ -40989,7 +41007,8 @@ export const typesBundle = {
               "_enum": {
                 "Ed25519": "[u8; 32]",
                 "Sr25519": "[u8; 32]",
-                "Secp256k1": "[u8; 33]"
+                "Secp256k1": "[u8; 33]",
+                "Dilithium2": "[u8; 1312]"
               }
             },
             "DidEncryptionKey": {
@@ -41015,7 +41034,8 @@ export const typesBundle = {
               "_enum": {
                 "Ed25519": "Ed25519Signature",
                 "Sr25519": "Sr25519Signature",
-                "Ecdsa-Secp256k1": "EcdsaSignature"
+                "Ecdsa-Secp256k1": "EcdsaSignature",
+                "Dilithium2": "Dilithium2Signature"
               }
             },
             "DidError": {
@@ -41241,7 +41261,8 @@ export const typesBundle = {
               "_enum": {
                 "Ed25519": "[u8; 32]",
                 "Sr25519": "[u8; 32]",
-                "Secp256k1": "[u8; 33]"
+                "Secp256k1": "[u8; 33]",
+                "Dilithium2": "[u8; 1312]"
               }
             },
             "DidEncryptionKey": {
@@ -41267,7 +41288,8 @@ export const typesBundle = {
               "_enum": {
                 "Ed25519": "Ed25519Signature",
                 "Sr25519": "Sr25519Signature",
-                "Ecdsa-Secp256k1": "EcdsaSignature"
+                "Ecdsa-Secp256k1": "EcdsaSignature",
+                "Dilithium2": "Dilithium2Signature"
               }
             },
             "DidError": {
