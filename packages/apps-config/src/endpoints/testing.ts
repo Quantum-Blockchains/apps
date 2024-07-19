@@ -3,7 +3,7 @@
 
 import type { EndpointOption } from './types.js';
 
-import { chains3dpassSVG, chainsAcalaSVG, chainsAlephSVG, chainsBrainstormPNG, chainsCreditcoinTestPNG, chainsDebioSVG, chainsEquilibriumSVG, chainsFerrumPNG, chainsFragnovaPNG, chainsJurPNG, chainsKintsugiPNG, chainsLogionPNG, chainsMyriadPNG, chainsShidenPNG, chainsSkyekiwiPNG, chainsTanglePNG } from '../ui/logos/chains/index.js';
+import { chainsQchainPNG, chains3dpassSVG, chainsAcalaSVG, chainsAlephSVG, chainsBrainstormPNG, chainsCreditcoinTestPNG, chainsDebioSVG, chainsEquilibriumSVG, chainsFerrumPNG, chainsFragnovaPNG, chainsJurPNG, chainsKintsugiPNG, chainsLogionPNG, chainsMyriadPNG, chainsShidenPNG, chainsSkyekiwiPNG, chainsTanglePNG } from '../ui/logos/chains/index.js';
 import { nodesAjunaPNG, nodesArcticPNG, nodesAresGladiosSVG, nodesAutomataPNG, nodesBifrostSVG, nodesBitcountryPNG, nodesCereSVG, nodesCessPNG, nodesCloverSVG, nodesCrustMaxwellSVG, nodesCurioSVG, nodesDatahighwayPNG, nodesDockPNG, nodesDolphinSVG, nodesDotmogSVG, nodesEdgewareWhitePNG, nodesEncointerBlueSVG, nodesFantourPNG, nodesGalitalLogoPNG, nodesGamepowerSVG, nodesGeekSVG, nodesInterlaySVG, nodesIpsePNG, nodesJazPNG, nodesJupiterSVG, nodesKarmachainSVG, nodesKhalaSVG, nodesKiltPNG, nodesKlugPNG, nodesKylinPNG, nodesLaminarCircleSVG, nodesLitentryPNG, nodesMantaPNG, nodesMathSVG, nodesMinixPNG, nodesMoonbaseAlphaSVG, nodesMybankPNG, nodesNftmartPNG, nodesNodleSVG, nodesOpalLogoPNG, nodesOpportunityPNG, nodesPangoroSVG, nodesPhalaSVG, nodesPhoenixPNG, nodesPichiuPNG, nodesPolkadexSVG, nodesPolkafoundrySVG, nodesPolymeshSVG, nodesPontemSVG, nodesPrismPNG, nodesRealisPNG, nodesRiochainSVG, nodesSherpaxPNG, nodesSoonsocialPNG, nodesSoraSubstrateSVG, nodesSubdaoPNG, nodesSubgameSVG, nodesSubspacePNG, nodesSubstrateHexagonSVG, nodesTernoaSVG, nodesThebifrostPNG, nodesUniartsPNG, nodesUniqueSVG, nodesUnitnetworkPNG, nodesWeb3gamesSVG, nodesZCloakSVG } from '../ui/logos/nodes/index.js';
 
 export * from './testingRelayRococo.js';
@@ -49,6 +49,17 @@ export const testChains: Omit<EndpointOption, 'teleport'>[] = [
     ui: {
       color: '#00CCAB',
       logo: chainsAlephSVG
+    }
+  },
+  {
+    info: 'quantum-technologies-platform',
+    providers: {
+      'Quantum Technologies Platform': 'wss://qsb.qbck.io:9945'
+    },
+    text: 'Quantum Technologies Platform',
+    ui: {
+      color: '#00CCAB',
+      logo: chainsQchainPNG
     }
   },
   {

@@ -59,6 +59,7 @@ git checkout kostia/v3.5.1
 yarn install
 yarn build
 
+cp -r ../../apps/node_modules/@polkadot/ui-keyring/node_modules/mkdirp mkdirp
 rm -r ../../apps/node_modules/@polkadot/react-identicon
 rm -r ../../apps/node_modules/@polkadot/react-qr
 rm -r ../../apps/node_modules/@polkadot/ui-keyring
@@ -68,6 +69,7 @@ rm -r ../../apps/node_modules/@polkadot/ui-shared
 cp -r packages/react-identicon/build ../../apps/node_modules/@polkadot/react-identicon
 cp -r packages/react-qr/build ../../apps/node_modules/@polkadot/react-qr
 cp -r packages/ui-keyring/build ../../apps/node_modules/@polkadot/ui-keyring
+cp -r mkdirp ../../apps/node_modules/@polkadot/ui-keyring/node_modules/mkdirp
 cp -r packages/ui-settings/build ../../apps/node_modules/@polkadot/ui-settings
 cp -r packages/ui-shared/build ../../apps/node_modules/@polkadot/ui-shared
 

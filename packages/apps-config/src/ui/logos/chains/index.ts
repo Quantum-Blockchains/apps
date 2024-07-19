@@ -47,6 +47,7 @@ export { chainsPeaqPNG } from './generated/peaqPNG.js';
 export { chainsPendulumSVG } from './generated/pendulumSVG.js';
 export { chainsPicassoSVG } from './generated/picassoSVG.js';
 export { chainsPolkadotCircleSVG } from './generated/polkadot-circleSVG.js';
+export { chainsQchainPNG } from './generated/qchainPNG.js';
 export { chainsRiodefiPNG } from './generated/riodefiPNG.js';
 export { chainsRococoSVG } from './generated/rococoSVG.js';
 export { chainsShidenPNG } from './generated/shidenPNG.js';

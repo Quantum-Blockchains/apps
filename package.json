@@ -38,7 +38,7 @@
     "build:electronRenderer": "cd packages/apps-electron && NODE_ENV=production yarn polkadot-exec-webpack --config webpack.renderer.cjs",
     "build:i18n": "i18next-scanner --config i18next-scanner.config.cjs && node ./scripts/i18nSort.cjs",
     "build:images": "node scripts/imgConvert.mjs",
-    "build:release:electron": "yarn build && yarn build:electron && yarn postinstall:electron",
+    "build:release:electron": "yarn build:apps && yarn build:electron && yarn postinstall:electron",
     "build:release:ghpages": "yarn polkadot-ci-ghact-docs",
     "build:release:ipfs": "node scripts/ipfsUpload.mjs",
     "build:release:www": "yarn polkadot-ci-ghact-build && yarn build:release:ghpages && yarn build:release:ipfs",
