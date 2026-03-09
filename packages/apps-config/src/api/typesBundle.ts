@@ -101757,7 +101757,8 @@ export const typesBundle = {
                 "Ed25519",
                 "Sr25519",
                 "Ecdsa",
-                "Dilithium2"
+                "Dilithium2",
+                "MLDSA44"
               ]
             },
             "StructDecl": {

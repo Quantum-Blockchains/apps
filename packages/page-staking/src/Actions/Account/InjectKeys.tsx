@@ -75,6 +75,8 @@ function InjectKeys ({ onClose }: Props): React.ReactElement<Props> | null {
         ? t<string>('ed25519, Edwards')
         : value === 'dilithium2'
         ? t<string>('dilithium2, QuantumBlockchains')
+        : value === 'mldsa44'
+        ? t<string>('mldsa44, QuantumBlockchains')
         : t<string>('sr15519, Schnorrkel'),
       value
     })),
